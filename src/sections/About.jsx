@@ -23,7 +23,7 @@ const About = () => {
             <img
               src="assets/grid1.png"
               alt="grid-1"
-              className="w-full sm:h-[276px] h-fit object-contain"
+              className="w-full sm:h-[276px] h-fit object-contain shadow-md shadow-blue-200 hover:shadow-yellow-300 transition-all cursor-pointer hover:scale-105 active:scale-105 duration-300 ease-in-out rounded-3xl"
             />
 
             <div>

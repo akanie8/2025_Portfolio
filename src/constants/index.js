@@ -24,27 +24,27 @@ export const navLinks = [
 export const clientReviews = [
   {
     id: 1,
-    name: "Emily Johnson",
-    position: "Marketing Director at GreenLeaf",
+    name: "Nhlalala Specs",
+    position: "Marketing Director at Kaairoinco",
     img: "assets/review1.png",
     review:
-      "Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
+      "Working with Shaun was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
   },
   {
     id: 2,
-    name: "Mark Rogers",
-    position: "Founder of TechGear Shop",
+    name: "Mark Noble",
+    position: "Founder of Aspen Feral Cat",
     img: "assets/review2.png",
     review:
-      "Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.",
+      "Shaun's expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.",
   },
   {
     id: 3,
-    name: "John Dohsas",
-    position: "Project Manager at UrbanTech ",
+    name: "Wesley Morgan",
+    position: "Project Manager",
     img: "assets/review3.png",
     review:
-      "I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
+      "I can’t say enough good things about Shaun. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
   },
   {
     id: 4,
@@ -52,19 +52,19 @@ export const clientReviews = [
     position: "CEO of BrightStar Enterprises",
     img: "assets/review4.png",
     review:
-      "Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.",
+      "Shaun was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.",
   },
 ];
 
 export const myProjects = [
   {
-    title: "Podcastr - AI Podcast Platform",
-    desc: "Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.",
+    title: "Aspen Feral Cat - Frontend Tester",
+    desc: "Tested and validated the frontend of a web-based animal tracking and management system built with React. Ensured UI components were responsive, accessible, and functionally sound across different devices and browsers. Reported UI/UX bugs, verified API integration accuracy, and collaborated with developers to improve user experience. Played a key role in maintaining quality standards before deployment",
     subdesc:
-      "Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.",
-    href: "https://www.youtube.com/watch?v=zfAb95tJvZQ",
-    texture: "/textures/project/project1.mp4",
-    logo: "/assets/project-logo1.png",
+      "Used React Native, React.js, and Tailwind CSS for interface testing, with Node.js, MySQL, and phpMyAdmin on the backend. Performed unit testing using tools like Jest and React Testing Library to validate component behavior and data integrity.",
+    href: "https://github.com/IFMTYP-2023/team2-dev",
+    texture: "/textures/project/aspen.mp4",
+    logo: "/assets/logo-aspen.jpg",
     logoStyle: {
       backgroundColor: "#2A1816",
       border: "0.2px solid #36201D",
@@ -84,24 +84,29 @@ export const myProjects = [
       },
       {
         id: 3,
-        name: "TypeScript",
-        path: "/assets/typescript.png",
+        name: "SQL",
+        path: "/assets/sql.png",
       },
       {
         id: 4,
-        name: "Framer Motion",
-        path: "/assets/framer.png",
+        name: "Node.js",
+        path: "/assets/node.png",
+      },
+      {
+        id: 5,
+        name: "Figma",
+        path: "/assets/figma.svg",
       },
     ],
   },
   {
-    title: "LiveDoc - Real-Time Google Docs Clone",
-    desc: "LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.",
+    title: "Kaairoinco Properties - Web Developer",
+    desc: "Developed a responsive real estate website for Kaairoinco Properties to showcase property listings and improve lead generation. Focused on creating a clean, user-friendly interface and seamless navigation experience. Collaborated closely with the client to ensure brand alignment and functional requirements",
     subdesc:
-      "With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.",
-    href: "https://www.youtube.com/watch?v=y5vE8y_f_OM",
-    texture: "/textures/project/project2.mp4",
-    logo: "/assets/project-logo2.png",
+      "The website allows users to browse available properties, view detailed information and images, and submit inquiries through a contact form. Built with React.js and Tailwind CSS for a modern and responsive UI, and integrated with a Node.js and MySQL backend. Implemented basic UI testing and ensured smooth functionality across devices to enhance user experience",
+    href: "https://github.com/akanie8/Karooinco_Properties",
+    texture: "/textures/project/kaairo.mp4",
+    logo: "/assets/kaairo.png",
     logoStyle: {
       backgroundColor: "#13202F",
       border: "0.2px solid #17293E",
@@ -121,8 +126,8 @@ export const myProjects = [
       },
       {
         id: 3,
-        name: "TypeScript",
-        path: "/assets/typescript.png",
+        name: "GSAP",
+        path: "/assets/GSAP.png",
       },
       {
         id: 4,
@@ -132,13 +137,13 @@ export const myProjects = [
     ],
   },
   {
-    title: "CarePulse - Health Management System",
-    desc: "An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.",
+    title: "Christian House Church - Web Developer",
+    desc: "Designed and developed a modern website for a local Christian house church to improve communication, accessibility, and online presence. Focused on delivering a clean layout and intuitive user experience tailored to the needs of the church community.",
     subdesc:
-      "With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.",
-    href: "https://www.youtube.com/watch?v=lEflo_sc82g",
-    texture: "/textures/project/project3.mp4",
-    logo: "/assets/project-logo3.png",
+      "The site allows members to access service times, view upcoming events, download sermons, and connect through a contact form. Built using React.js and Tailwind CSS for a responsive UI, with backend functionality powered by Node.js and MySQL. Ensured performance optimization, mobile compatibility, and smooth navigation for both new visitors and regular attendees",
+    href: "https://github.com/akanie8/CHC_Website",
+    texture: "/textures/project/chc_web.mp4",
+    logo: "/assets/chc.jpg",
     logoStyle: {
       backgroundColor: "#60f5a1",
       background:
@@ -171,13 +176,13 @@ export const myProjects = [
     ],
   },
   {
-    title: "Horizon - Online Banking Platform",
-    desc: "Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.",
+    title: "Christian House Church - Mobile App Developer",
+    desc: "Developed a mobile app to support a local Christian house church’s digital needs, aimed at improving member engagement and access to church resources. Focused on building a clean, intuitive interface with reliable performance across devices.",
     subdesc:
-      "Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.",
+      "The app allows users to view service times, receive announcements, access sermon audio files, join events, and connect through contact and prayer request forms. Built using React Native and Tailwind CSS, with backend services powered by Node.js and MySQL. Integrated user-friendly navigation and ensured mobile responsiveness and offline accessibility for a seamless worship experience.",
     href: "https://www.youtube.com/watch?v=PuOVqP_cjkE",
-    texture: "/textures/project/project4.mp4",
-    logo: "/assets/project-logo4.png",
+    texture: "/textures/project/chc_mobile.mp4",
+    logo: "/assets/chc.jpg",
     logoStyle: {
       backgroundColor: "#0E1F38",
       border: "0.2px solid #0E2D58",
@@ -202,19 +207,19 @@ export const myProjects = [
       },
       {
         id: 4,
-        name: "Framer Motion",
-        path: "/assets/framer.png",
+        name: "Appwrite.io",
+        path: "/assets/appwrite.png",
       },
     ],
   },
   {
-    title: "Imaginify - AI Photo Manipulation App",
-    desc: "Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.",
+    title: "Mpumelelo Bible Study Student Accommodation - Web Developer",
+    desc: "Created a promotional website to support a Bible study-centered student accommodation initiative, combining housing outreach with a faith-based mission. Focused on designing a clean, engaging interface to attract students and share the message of Christ.",
     subdesc:
-      "Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.",
-    href: "https://www.youtube.com/watch?v=Ahwoks_dawU",
-    texture: "/textures/project/project5.mp4",
-    logo: "/assets/project-logo5.png",
+      "The website allows visitors to browse accommodation photos, check availability, and learn about the Bible study community's values. Built with React.js and Tailwind CSS for responsiveness and fast loading. Regularly updated with the latest images and announcements to help advertise rooms while spreading the Word of God through embedded scripture, testimonials, and event highlights",
+    href: "https://github.com/akanie8/Mpumelelo-Bible-Study",
+    texture: "/textures/project/mpumelelo.mp4",
+    logo: "/assets/mpumelelo.png",
     logoStyle: {
       backgroundColor: "#1C1A43",
       border: "0.2px solid #252262",
@@ -284,32 +289,32 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 export const workExperiences = [
   {
     id: 1,
-    name: "Framer",
-    pos: "Lead Web Developer",
-    duration: "2022 - Present",
+    name: "React Native",
+    pos: "Lead Software Engineer",
+    duration: "2025, Feb - Present",
     title:
-      "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
-    icon: "/assets/framer.svg",
+      "I use React Native to build mobile apps for both Android and iOS from a single codebase. It helps me develop faster, test easily, and deliver a smooth user experience without switching between platforms. I find it very useful because it saves time, keeps my UI consistent, and integrates well with backend services like Node.js and Appwrite",
+    icon: "/assets/react.svg",
     animation: "victory",
   },
   {
     id: 2,
-    name: "Figma",
+    name: "GSAP",
     pos: "Web Developer",
-    duration: "2020 - 2022",
+    duration: "2025, March - 2025, June",
     title:
-      "Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.",
-    icon: "/assets/figma.svg",
-    animation: "clapping",
+      "GSAP (GreenSock Animation Platform) is a tool I leverage to implement high-performance, visually engaging animations in web applications. It enables precise control over timelines, transitions, and interactive effects, making user interfaces feel dynamic and polished. I find it especially valuable for enhancing user experience through smooth scroll animations, hover effects, and responsive motion design, particularly when working with React and Tailwind CSS",
+    icon: "/assets/GSAP.png",
+    animation: "victory",
   },
   {
     id: 3,
-    name: "Notion",
-    pos: "Junior Web Developer",
-    duration: "2019 - 2020",
+    name: "Figma",
+    pos: "Junior Web Design",
+    duration: "2024, Feb - 2024, April",
     title:
-      "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
-    icon: "/assets/notion.svg",
+      "Figma is my go-to tool for designing user interfaces, creating prototypes, and collaborating with teams in real time. I use it to transform ideas into structured, interactive layouts that align with user needs and brand identity. Its cloud-based platform makes it easy to iterate quickly, share feedback, and maintain design consistency across projects. I find it especially effective for streamlining the handoff between design and development.",
+    icon: "/assets/figma.svg",
     animation: "salute",
   },
 ];
