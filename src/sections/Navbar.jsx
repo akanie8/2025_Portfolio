@@ -28,7 +28,7 @@ const Navbar = () => {
           >
             <img
               src="/assets/logo-2.png"
-              alt="logo"
+              alt="Logo"
               className="h-10 w-auto object-contain"
             />
           </a>
