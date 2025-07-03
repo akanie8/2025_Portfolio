@@ -26,7 +26,7 @@ const Navbar = () => {
             href="./"
             className="text-neutral-400 font-bold text-xl hover:text-white transition-colors"
           >
-            Shaun
+            <img src="/assets/logo-2.png" />
           </a>
           <button
             onClick={toggleMenu}

@@ -27,9 +27,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <p className="text-white-500">
-        © 2025 Adrian Hajdin. All rights reserved.
-      </p>
+      <p className="text-white-500">© 2025 Shaun Zitha. All rights reserved.</p>
     </footer>
   );
 };
